@@ -184,8 +184,7 @@ class CreateCLI(object):
         self.name = path(self._executable).namebase
 
     def _get_xml(self):
-        sp = subprocess.Popen(["--xml"], executable=self._executable, stderr=subprocess.STDOUT, stdout=subprocess.PIPE,
-                              shell=True)
+        sp = subprocess.Popen(["--xml"], executable=self._executable, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
         sp.wait()
         if sp.returncode == 0:
             return sp.stdout.read()
