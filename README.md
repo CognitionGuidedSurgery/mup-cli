@@ -33,4 +33,4 @@ Optional for sharing your MUR:
 5. Set a new origin with your `<user>` and `<repo>`:
 
         $ git remote set-url origin https://github.com/<user>/<repo>.git
-        $ git commit && git push
+        $ git commit && git push origin master
