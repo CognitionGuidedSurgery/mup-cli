@@ -5,30 +5,30 @@ This repository is a kick-start template for getting CLI (CommandLineInterface) 
 
 
      Author: Alexander Weigl <uiduw@student.kit.edu>
-     Date: 2014-12-06
-     Version: 0.2
+     Date: 2015-03-01
+     Version: 0.3
      License: GPLv3
 
 ## Getting Started
 
 1. Clone the latest version of this repository:
 
-        $ git clone --depth 0 https://github.com/CognitionGuidedSurgery/mur-cli.git
+        $ git clone --depth 0 https://github.com/CognitionGuidedSurgery/mup-empty.git
    
 2. Install dependencies:
 
-        $ pip install --user path.py pyxb jinja2
+        $ pip install --user --pre msml2cli
     
 
-3. Exclude `alphabet/`, `bin`, `py` from `.gitignore` file.
+3. Exclude `alphabet/`, `bin`, `py` from `.gitignore` file if necessary.
 
 4. Add executable into `bin` by linking or copying.
 
-5. Call `make.py`
+5. Generate wrapper
 
-        $ ./make.py
+    $ msml2cli -o alphabet bin/* 
 
-Optional for sharing your MUR:
+Optional for sharing your MSML USER PACKAGE (MUP):
 
 5. Set a new origin with your `<user>` and `<repo>`:
 

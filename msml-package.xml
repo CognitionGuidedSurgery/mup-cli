@@ -1,0 +1,16 @@
+<package xmlns="http://msml.org/package/1.0/"
+	name="mup-empty"
+	version="2015.03.01">
+	<information>
+		<maintainer
+			name="Alexander Weigl"
+			email="alexander.weigl@student.kit.edu"/>
+		<documentation file="README.md"/>
+		<homepage url="http://github.com/CognitionGuidedSurgery/mup-empty"/>
+		<repository url="http://github.com/CognitionGuidedSurgery/mup-empty.git" type="git" />
+	</information>
+
+	<rc-file>sorts.py</rc-file>
+	<alphabet-dir>alphabet</alphabet-dir>
+	<binary-dir>bin/</binary-dir>
+</package>
